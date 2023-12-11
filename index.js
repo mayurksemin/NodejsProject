@@ -7,6 +7,6 @@ app.get("/",(req,res)=>{
     res.sendFile(path.join(__dirname, 'Public', 'index.html'));
 })
 
-app.listen(3000, () => {
+app.listen(4000, () => {
     console.log("Server started");
 });
